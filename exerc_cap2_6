@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main(){
+// Os valores devem que ser inteiros para esse exercicio.
+int prestacao, salario, resolucao;
+
+printf("Me informe o valor do salario bruto recebido:");
+scanf("%d", &salario);
+
+printf("Me informe o valor da prestação a ser pago:");
+scanf("%d", &prestacao);
+
+// <= Menor ou igual que
+
+resolucao = (salario * 0.3);
+
+if (prestacao <= (resolucao))
+    printf("Emprestimo concedido, obrigado!");
+
+else
+    printf("Emprestimo nao concedido, tente outra vez!");
+
+printf("\nFim");
+
+return 0;
+
+}
+
