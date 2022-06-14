@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main(){
+// O numero tem que ser inteiro para esse exercicio.
+int numero;
+
+printf("Me informe o numero desajado:");
+scanf("%d", &numero);
+
+if ((numero % 3) == 0 && (numero % 7) == 0)
+    printf("E divisivel pelos numeros 3 e 7!");
+
+else
+    printf("Nao e divisivel pelos numeros 3 e 7!");
+
+printf("\nFim");
+
+return 0;
+
+}
+
