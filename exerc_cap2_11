@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main(){
+
+int numero1, numero2, numero3;
+
+	printf("Me informe o valor do primeiro numero:");
+	scanf("%d",&numero1);
+
+	printf("DMe informe o valor do segundo numero:");
+	scanf("%d",&numero2);
+	
+	printf("Me informe o valor do terceiro numero:");
+	scanf("%d",&numero3);
+
+if (numero1 > numero2 && numero1 > numero3)
+printf("Maior numero: %d", numero1);
+
+else if (numero2 > numero1 && numero2 > numero3) 
+printf("Maior numero: %d", numero2);
+
+else
+printf("Maior numero informado: %d", numero3);
+
+printf("\nFim, este e o numero desejado!");
+}
