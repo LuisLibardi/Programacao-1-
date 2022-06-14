@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main(){
+// O numero tem que ser inteiro para esse exercicio.
+int numero;
+
+printf("Me informe o numero desajado:");
+scanf("%d", &numero);
+
+//<= Menor ou igual que, >= Maior ou igual que
+
+if (numero >= 20 && numero <= 50)
+    printf("O numero esta entre os valores 20 e 50!");
+
+else
+    printf("Numero e menor do que 20 ou maior do que 50!");
+
+printf("\nFim");
+
+return 0;
+
+}
+
