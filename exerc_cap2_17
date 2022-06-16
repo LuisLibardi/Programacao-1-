@@ -1,0 +1,43 @@
+#include <stdio.h>
+
+int main(){
+
+char nome[100];
+int idade, valor;
+
+printf("Digite o nome:");
+scanf("%s", &nome);
+
+printf("Digite a idade:");
+scanf("%d", &idade);
+
+
+switch (valor) {
+
+	case 1 : (idade <= 10);
+		printf("Valor: 30 reais");
+		break;
+	
+	case 2 :(idade <= 29);
+printf("Valor: 60 reais");
+		break;
+	
+	case 3 :(idade <= 45);
+printf("Valor: 120 reais");
+		break;
+	
+	case 4 :(idade <= 59);
+printf("Valor: 150 reais");
+		break;
+	
+	case 5 :(idade <= 65);
+printf("Valor: 250 reais");
+		break;
+
+	default:
+	printf("\nValor: 400 reais");
+ 
+	}	
+
+	return 0;
+}
